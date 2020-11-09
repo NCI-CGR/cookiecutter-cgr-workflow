@@ -24,7 +24,7 @@ conda activate dev_environment.yaml
 - Use cookiecutter and follow the prompts to populate a new directory with all the boilerplate and directory structure you'll need.
 
 ```
-cookiecutter http://10.133.130.114/bballew/cookiecutter-cgr-workflow
+cookiecutter http://10.133.130.114/bballew/cookiecutter-cgr-workflow.git
 ```
 
 ### Step 3: Initialize your repo
