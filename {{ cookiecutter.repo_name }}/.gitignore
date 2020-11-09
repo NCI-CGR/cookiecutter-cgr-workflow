@@ -1,7 +1,7 @@
 *
-analysis
-analysis/*
-!analysis/README.md
+results
+results/*
+!results/README.md
 !config
 !config/*
 !resources
