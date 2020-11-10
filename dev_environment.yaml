@@ -1,8 +1,8 @@
 name: dev_environment
 channels:
   - bioconda
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - snakemake
   - git
