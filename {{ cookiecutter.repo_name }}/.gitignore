@@ -3,6 +3,10 @@ results
 results/*
 !results/README.md
 
+resources
+resources/*
+!resources/README.md
+
 # Workflow Artifacts
 .snakemake/
 
