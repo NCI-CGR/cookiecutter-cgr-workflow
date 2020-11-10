@@ -6,8 +6,10 @@ channels:
 dependencies:
   - black
   - cookiecutter
+  - flake8
   - git
   - git-lfs
+  - isort
   - pre-commit
   - snakefmt
   - snakemake
