@@ -4,10 +4,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - snakemake
-  - git
-  - pre-commit
   - black
-  - snakefmt
-  - git-lfs
   - cookiecutter
+  - git
+  - git-lfs
+  - pre-commit
+  - snakefmt
+  - snakemake
