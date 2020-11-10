@@ -1,16 +1,3 @@
 results
 results/*
 !results/README.md
-!config
-!config/*
-!resources
-!resources/*
-!workflow
-!workflow/**
-.gitignore
-!.gitattributes
-!.editorconfig
-!.travis.yml
-!.test
-!LICENSE
-!README.md
