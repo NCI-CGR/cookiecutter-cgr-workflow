@@ -1,0 +1,7 @@
+name: {{ cookiecutter.repo_name }}
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - snakemake

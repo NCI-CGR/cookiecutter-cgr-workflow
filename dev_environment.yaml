@@ -1,13 +1,15 @@
 name: dev_environment
 channels:
   - bioconda
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - snakemake
-  - git
-  - pre-commit
   - black
-  - snakefmt
-  - git-lfs
   - cookiecutter
+  - flake8
+  - git
+  - git-lfs
+  - isort
+  - pre-commit
+  - snakefmt
+  - snakemake
