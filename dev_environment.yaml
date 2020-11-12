@@ -10,6 +10,7 @@ dependencies:
   - git
   - git-lfs
   - isort
+  - mamba
   - pre-commit
   - snakefmt
   - snakemake
