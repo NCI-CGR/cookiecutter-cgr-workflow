@@ -1,4 +1,4 @@
-name: dev_environment
+name: dev
 channels:
   - bioconda
   - conda-forge
@@ -11,6 +11,7 @@ dependencies:
   - git-lfs
   - isort
   - mamba
+  - nodejs
   - pre-commit
   - snakefmt
   - snakemake

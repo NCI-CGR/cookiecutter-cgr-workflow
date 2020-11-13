@@ -4,6 +4,7 @@ Cookiecutter template for CGR workflows.  This is based off of conventions defin
 
 ## Authors
 B. Ballew
+J. Fear
 
 ## Usage
 
@@ -19,6 +20,14 @@ conda env create -f dev_environment.yaml
 # activate the env
 conda activate dev_environment.yaml
 ```
+
+- Install [commitizen](https://github.com/commitizen/cz-cli) as follows
+
+```
+npm install -g commitizen cz-conventional-changelog
+```
+
+- Make sure to activate your dev environment whenever you are writing/committing code
 
 ### Step 2: Start your project using cookiecutter
 - Use cookiecutter and follow the prompts to populate a new directory with all the boilerplate and directory structure you'll need.
