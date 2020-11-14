@@ -5,15 +5,3 @@ channels:
   - defaults
 dependencies:
   - snakemake
-# linting control via pre-commit
-  - pre-commit
-# partial support for C++ linting utilities
-# see also related issue for clang-format discussion
-  - cppcheck
-# support for R linting utilities
-  - r-devtools
-  - r-docopt
-  - r-lintr
-  - r-spelling
-  - r-styler
-  - r-usethis
