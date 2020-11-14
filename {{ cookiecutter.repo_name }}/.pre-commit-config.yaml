@@ -25,3 +25,25 @@ repos:
     rev: b4e365145107371a20e24dc3808230fef24feacf
     hooks:
     -   id: snakefmt
+## C++ support
+- repo: https://gitlab.com/daverona/pre-commit/cpp
+  rev: 0.8.0
+  hooks:
+  - id: clang-format
+  - id: cpplint
+    args: ["--includeorder=default"]
+  - id: cppcheck
+## R support
+- repo: https://github.com/lorenzwalthert/precommit
+  rev: v0.1.3
+  hooks:
+  - id: style-files
+  - id: parsable-R
+  - id: no-browser-statement
+  - id: spell-check
+  - id: lintr
+    verbose: true
+## Note: the following three hooks apply only to R package development
+#  - id: roxygenize
+#  - id: deps-in-desc
+#  - id: use-tidy-description
