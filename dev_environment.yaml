@@ -1,4 +1,4 @@
-name: dev
+name: dev-baritest
 channels:
   - bioconda
   - conda-forge
@@ -15,8 +15,6 @@ dependencies:
   - pre-commit
   - snakefmt
   - snakemake
-# linting control via pre-commit
-  - pre-commit
 # partial support for C++ linting utilities
 # see also related issue for clang-format discussion
   - cppcheck
