@@ -1,4 +1,4 @@
-name: dev-baritest
+name: dev
 channels:
   - bioconda
   - conda-forge
