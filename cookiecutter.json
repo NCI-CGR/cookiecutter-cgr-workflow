@@ -4,5 +4,7 @@
   "username": "bballew",
   "project_name": "CGR RNA-Seq",
   "repo_name": "cgr-rna-seq",
-  "min_snakemake_version": "5.7.0"
+  "min_snakemake_version": "5.7.0",
+  "linting_support_for_CPP": ["yes", "no"],
+  "linting_support_for_R": ["yes", "no"]
 }
