@@ -15,9 +15,9 @@ dependencies:
   - pre-commit
   - snakefmt
   - snakemake
-# partial support for C++ linting utilities
-# see also related issue for clang-format discussion
+# support for C++ linting utilities
   - cppcheck
+  - sarcasm::clang-format
 # support for R linting utilities
   - r-devtools
   - r-docopt
