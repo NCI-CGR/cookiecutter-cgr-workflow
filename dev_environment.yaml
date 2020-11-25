@@ -22,6 +22,5 @@ dependencies:
   - r-devtools
   - r-docopt
   - r-lintr
-  - r-spelling
   - r-styler
   - r-usethis
