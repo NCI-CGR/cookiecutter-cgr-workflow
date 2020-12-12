@@ -29,7 +29,7 @@ repos:
   hooks:
   - id: isort
 {% endif %}
-{% if cookiecutter.linting_support_for_snakemake == "yes:" %}
+{% if cookiecutter.linting_support_for_snakemake == "yes" %}
 ## Snakemake linting
 - repo: https://github.com/snakemake/snakefmt
   rev: 0.2.4
