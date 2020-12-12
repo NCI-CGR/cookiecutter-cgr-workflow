@@ -11,11 +11,12 @@ J. Fear
 ### Step 1: Set up a development environment
 
 - If needed, install miniconda by following the steps [here](https://docs.conda.io/en/latest/miniconda.html).
+- If needed, install [mamba](https://github.com/mamba-org/mamba): `conda install mamba`
 - Create a conda environment with, minimally, the dependencies defined in `dev_environment.yaml`.
 
 ```
 # create the env
-conda env create -f dev_environment.yaml
+mamba env create -f dev_environment.yaml
 
 # activate the env
 conda activate dev_environment.yaml
