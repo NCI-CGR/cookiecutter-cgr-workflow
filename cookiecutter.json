@@ -6,5 +6,7 @@
   "repo_name": "cgr-rna-seq",
   "min_snakemake_version": "5.7.0",
   "linting_support_for_CPP": ["yes", "no"],
-  "linting_support_for_R": ["yes", "no"]
+  "linting_support_for_R": ["yes", "no"],
+  "linting_support_for_python": ["yes", "no"],
+  "linting_support_for_snakemake": ["yes", "no"]
 }
