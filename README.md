@@ -3,8 +3,9 @@
 Cookiecutter template for CGR workflows.  This is based off of conventions defined for Snakemake workflows, but may be adapted for any other workflow management system.
 
 ## Authors
-B. Ballew
-J. Fear
+B. Ballew  
+J. Fear  
+C. Palmer  
 
 ## Usage
 
